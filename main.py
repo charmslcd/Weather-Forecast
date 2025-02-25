@@ -66,7 +66,7 @@ else:
     msg = f"{date_now.date()}\n\nThe weather looks good today in {MY_CITY}!\n{msg}"
 
 print(msg)
-# telegram_bot_send_text(msg)
+telegram_bot_send_text(msg)
 
 
 
